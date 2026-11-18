@@ -1,0 +1,38 @@
+{
+        "title": "HCoV 229E",
+        "maintainers": [
+    {"name": "Diego Teixeira"}
+  ],
+  "colorings": [
+    {
+      "key": "Date",
+      "title": "Collection Date",
+      "type": "continuous"
+    },
+    {
+      "key": "Country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "genotype",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "subgenotype",
+      "title": "subgenotype",
+      "type": "categorical"
+    }
+],
+  "geo_resolutions": [
+    "Country"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "Country"
+  ],
+  "panels": [ "tree", "map", "entropy","frequencies"]
+}
