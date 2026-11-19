@@ -23,6 +23,11 @@
       "key": "subgenotype",
       "title": "subgenotype",
       "type": "categorical"
+    },
+    {
+      "key": "genotype2",
+      "title": "Genotype2",
+      "type": "categorical"
     }
 ],
   "geo_resolutions": [

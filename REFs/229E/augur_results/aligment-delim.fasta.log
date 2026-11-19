@@ -5,629 +5,630 @@ Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
 
 Host:    mib119765s (SSE4.2, 16 GB RAM)
 Command: iqtree3 --threads-max 4 -s /Users/dt14/Desktop/HCoV/REFs/229E/augur_results/aligment-delim.fasta -m GTR --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
-Seed:    276924 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Wed Nov 18 16:17:35 2026
+Seed:    738882 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Nov 19 12:09:47 2026
 Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
 
 Reading alignment file /Users/dt14/Desktop/HCoV/REFs/229E/augur_results/aligment-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.118483 secs using 88.84% CPU
+Reading fasta file: done in 0.122165 secs using 85.64% CPU
 Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.0612221 secs using 80.37% CPU
-Alignment has 537 sequences with 27317 columns, 10930 distinct patterns
-2272 parsimony-informative, 2469 singleton sites, 22576 constant sites
+Constructing alignment: done in 0.0668862 secs using 73.83% CPU
+WARNING: 133 sites contain only gaps or ambiguous characters.
+Alignment has 537 sequences with 27395 columns, 10915 distinct patterns
+2265 parsimony-informative, 2464 singleton sites, 22666 constant sites
                                                             Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 0.00400615 secs using 443.1% CPU
-   1  PX640307.1_DELIM-0x7c_USA_DELIM-0x7c_2020-06-02               0.00%    passed     83.09%
-   2  PX640306.1_DELIM-0x7c_USA_DELIM-0x7c_2020-06-02               0.00%    passed     81.62%
-   3  PQ243243.1_DELIM-0x7c_Hong_Kong_DELIM-0x7c_2020-XX-XX         0.00%    passed     81.05%
-   4  OK662398.1_DELIM-0x7c_Finland_DELIM-0x7c_2021-XX-XX           0.00%    passed     79.11%
-   5  OK625404.1_DELIM-0x7c_South_Korea_DELIM-0x7c_2017-XX-XX       0.17%    passed     81.69%
-   6  PP810610.1_DELIM-0x7c_Spain_DELIM-0x7c_2012-10-05             0.55%    passed     78.14%
-   7  MZ712010.1_DELIM-0x7c_South_Korea_DELIM-0x7c_2017-06-XX       0.24%    passed     80.74%
-   8  PP914108.1_DELIM-0x7c_China_DELIM-0x7c_2022-05-15             0.07%    passed     82.37%
-   9  PQ616082.1_DELIM-0x7c_USSR_DELIM-0x7c_1979-XX-XX              0.28%    passed     78.46%
-  10  PZ496046.1_DELIM-0x7c_Peru_DELIM-0x7c_2025-02-19              0.23%    passed     98.78%
-  11  PZ086190.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-17            0.25%    passed     98.64%
-  12  PZ086207.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-25            2.20%    passed     99.64%
-  13  PZ086203.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-18            1.86%    passed     99.34%
-  14  PZ086274.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-01-31            4.95%    passed     96.46%
-  15  PZ086198.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-30            1.86%    passed     99.48%
-  16  PZ086202.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-14            1.86%    passed     99.75%
-  17  PZ086208.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-17            2.23%    passed     99.62%
-  18  PZ086201.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-26            1.86%    passed     99.86%
-  19  PZ086270.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            1.54%    passed     99.42%
-  20  PQ525429.1_DELIM-0x7c_USA_DELIM-0x7c_2024-06-XX               1.19%    passed     99.68%
-  21  PV685441.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-14               0.27%    passed     99.63%
-  22  PX055897.1_DELIM-0x7c_Malaysia_DELIM-0x7c_2024-03-XX          0.38%    passed     99.98%
-  23  PV685439.1_DELIM-0x7c_USA_DELIM-0x7c_2024-03-06               0.26%    passed     99.80%
-  24  PV685440.1_DELIM-0x7c_USA_DELIM-0x7c_2024-04-08               0.35%    passed     99.76%
-  25  PV685447.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-27               0.26%    passed     99.65%
-  26  PV685448.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-29               0.26%    passed     99.65%
-  27  PV685446.1_DELIM-0x7c_USA_DELIM-0x7c_2024-03-24               0.26%    passed     99.57%
-  28  PZ086273.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-18            4.22%    passed     97.46%
-  29  PV717809.1_DELIM-0x7c_USA_DELIM-0x7c_2025-02-17               0.34%    passed     99.95%
-  30  PV717794.1_DELIM-0x7c_USA_DELIM-0x7c_2025-02-23               0.62%    passed     99.94%
-  31  PZ086200.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-20            1.86%    passed     99.11%
-  32  PZ086294.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-17            4.67%    passed     94.42%
-  33  PQ616096.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-03-17            4.72%    passed     94.34%
-  34  ON791801.1_DELIM-0x7c_USA_DELIM-0x7c_2022-XX-XX               0.21%    passed     98.42%
-  35  PX731573.1_DELIM-0x7c_USA_DELIM-0x7c_2023-XX-XX               0.26%    passed     99.53%
-  36  PQ466852.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2022-04-08    3.58%    passed     98.68%
-  37  PQ466857.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2023-03-10    2.36%    passed     99.65%
-  38  PQ466855.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2023-02-08    2.38%    passed     99.71%
-  39  PQ466856.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2023-03-05    3.59%    passed     98.81%
-  40  PQ466853.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2022-04-22    2.36%    passed     99.94%
-  41  PX731576.1_DELIM-0x7c_USA_DELIM-0x7c_2023-XX-XX               0.26%    passed     99.54%
-  42  PZ086193.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-10            0.62%    passed     99.95%
-  43  PZ086298.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            6.41%    passed     94.34%
-  44  PZ086192.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-21            0.62%    passed    100.00%
-  45  PZ086194.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-10            0.62%    passed     99.93%
-  46  PQ616112.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-04-17            9.06%    passed     94.79%
-  47  PZ086278.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-28            4.67%    passed     95.41%
-  48  PZ086249.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-26            1.30%    passed     99.63%
-  49  PZ086250.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-17            1.19%    passed     99.47%
-  50  PZ086251.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-17            1.39%    passed     99.75%
-  51  PZ086276.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-26            6.23%    passed     96.46%
-  52  PZ086297.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-19            6.62%    passed     98.34%
-  53  PZ086279.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            4.74%    passed     96.36%
-  54  PZ086284.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            9.94%    passed     96.64%
-  55  PX731575.1_DELIM-0x7c_USA_DELIM-0x7c_2023-XX-XX               0.26%    passed     99.40%
-  56  PV827141.1_DELIM-0x7c_Australia_DELIM-0x7c_2022-07-05         2.82%    passed     99.88%
-  57  PV685444.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-18               0.26%    passed     99.54%
-  58  PV685442.1_DELIM-0x7c_USA_DELIM-0x7c_2023-07-18               0.28%    passed     99.38%
-  59  PV685443.1_DELIM-0x7c_USA_DELIM-0x7c_2024-04-17               0.26%    passed     99.70%
-  60  PQ963849.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-04-17            2.25%    passed     99.97%
-  61  PQ963848.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-04-15            4.52%    passed     93.75%
-  62  PZ086195.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-10-29            0.75%    passed     99.91%
-  63  PZ086196.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-25            0.47%    passed     99.49%
-  64  PZ086240.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-04-23            2.03%    passed     99.40%
-  65  PZ086245.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-05-10           14.61%    passed     50.48%
-  66  PZ086197.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-04-25            0.42%    passed     98.51%
-  67  PV471813.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-13            1.80%    passed     99.20%
-  68  PV471815.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-18            1.81%    passed     99.04%
-  69  PV471838.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-19            2.20%    passed     99.05%
-  70  PV471872.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-03           13.62%    passed     91.34%
-  71  PV471855.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-13            1.83%    passed     99.54%
-  72  PV471850.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-03            1.83%    passed     99.36%
-  73  PV471874.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-19            1.80%    passed     99.39%
-  74  PV471819.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-15            1.67%    passed     99.26%
-  75  PV471836.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-18            1.50%    passed     98.68%
-  76  PV471839.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-23            1.83%    passed     99.30%
-  77  PV471824.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-12            1.80%    passed     99.26%
-  78  PV471867.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-29            1.82%    passed     99.18%
-  79  PV471849.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-03            8.66%    passed     91.88%
-  80  PV471879.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-13            2.56%    passed     99.12%
-  81  PV471859.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-17            2.66%    passed     99.55%
-  82  PV471862.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-20            6.45%    passed     89.11%
-  83  PV471887.1_DELIM-0x7c_France_DELIM-0x7c_2022-03-16            6.59%    passed     85.96%
-  84  PV471837.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-19            1.76%    passed     99.17%
-  85  PV471820.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-02            1.75%    passed     99.29%
-  86  PV471857.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-16            2.66%    passed     98.51%
-  87  PV471829.1_DELIM-0x7c_France_DELIM-0x7c_2021-09-27            6.43%    passed     89.56%
-  88  PV471868.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-31            1.71%    passed     99.16%
-  89  PV471876.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-08            1.81%    passed     99.02%
-  90  PV471831.1_DELIM-0x7c_France_DELIM-0x7c_2021-10-27            4.97%    passed     92.87%
-  91  PV471852.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-07            1.81%    passed     99.21%
-  92  PV471823.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-06            1.80%    passed     99.41%
-  93  PV471825.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-18            1.81%    passed     99.61%
-  94  PV471885.1_DELIM-0x7c_France_DELIM-0x7c_2022-03-01            2.06%    passed     99.77%
-  95  PV471866.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-27            1.79%    passed     99.29%
-  96  PV471817.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-07           16.37%    passed     78.60%
-  97  PV471858.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-17            5.26%    passed     93.12%
-  98  PV471846.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-18            5.98%    passed     95.35%
-  99  PV471878.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-11            2.21%    passed     99.46%
- 100  PV471884.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-26            2.28%    passed     99.35%
- 101  PV471835.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-17            3.78%    passed     98.63%
- 102  PV471842.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-30            9.99%    passed     91.39%
- 103  PZ086292.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-03            2.37%    passed     99.39%
- 104  PZ086299.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21           10.15%    passed     91.93%
- 105  PZ086308.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-05            4.88%    passed     97.60%
- 106  PZ086205.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-04-06            2.27%    passed     99.96%
- 107  PZ086199.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-17            1.81%    passed     99.58%
- 108  PQ963852.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-07-17            9.42%    passed     92.61%
- 109  PV631258.1_DELIM-0x7c_China_DELIM-0x7c_2023-12-XX             0.44%    passed     99.89%
- 110  LC922646.1_DELIM-0x7c_Japan_DELIM-0x7c_2024-XX-XX             0.22%    passed     98.85%
- 111  PX055896.1_DELIM-0x7c_Malaysia_DELIM-0x7c_2023-03-XX          5.13%    passed     86.30%
- 112  PQ616100.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-21            1.21%    passed     99.90%
- 113  PZ086181.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-13           12.51%    passed     86.89%
- 114  PZ086256.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-13           12.36%    passed     88.03%
- 115  PZ086185.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-XX-XX            3.18%    passed     99.26%
- 116  PZ086233.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            2.98%    passed     99.44%
- 117  PZ086224.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-10-27            0.95%    passed     99.63%
- 118  PZ086186.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-XX-XX            2.38%    passed     99.98%
- 119  PZ086234.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            2.18%    passed     99.97%
- 120  PZ086227.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            5.09%    passed     98.41%
- 121  PZ086189.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-31            0.24%    passed     99.02%
- 122  PZ086191.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-14            0.71%    passed     99.81%
- 123  PZ086209.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-24            2.21%    passed     99.35%
- 124  PZ086257.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-31            3.58%    passed     97.60%
- 125  PZ086210.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-12            0.24%    passed     98.75%
- 126  PZ086212.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-19            0.50%    passed     99.47%
- 127  PZ086243.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-26            6.65%    passed     97.73%
- 128  PZ086214.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-27            0.52%    passed     99.64%
- 129  PZ086223.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            4.18%    passed     99.94%
- 130  PZ086247.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-15           11.41%    passed     82.66%
- 131  PZ086183.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-27            1.80%    passed     99.68%
- 132  PZ086228.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-27            1.65%    passed     99.77%
- 133  PZ086235.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-31            8.94%    passed     96.27%
- 134  PZ086216.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-23            3.05%    passed     99.36%
- 135  PZ086241.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-27            7.45%    passed     93.86%
- 136  OR266946.1_DELIM-0x7c_Russia_DELIM-0x7c_2022-03-28            0.60%    passed     98.62%
- 137  PZ086242.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-07-27            7.28%    passed     99.51%
- 138  PZ086220.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            1.18%    passed     99.91%
- 139  PZ086225.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-13            7.78%    passed     90.13%
- 140  PZ086269.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            2.22%    passed     99.73%
- 141  PZ086295.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            8.97%    passed     97.72%
- 142  PV685438.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-05               0.68%    passed     99.71%
- 143  PZ086211.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-24            1.45%    passed     99.36%
- 144  PZ086229.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-14           14.83%    passed     74.34%
- 145  PQ616099.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-14           14.84%    passed     73.86%
- 146  PZ086230.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-28            1.02%    passed     98.94%
- 147  PZ086291.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-20            5.43%    passed     98.77%
- 148  PZ086287.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-14            1.32%    passed     99.91%
- 149  PZ086303.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-30            4.86%    passed     99.76%
- 150  PZ086236.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-13            3.97%    passed     99.53%
- 151  PZ086255.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-15            5.24%    passed     99.31%
- 152  PQ616070.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-01-12            3.62%    passed     99.84%
- 153  PQ616071.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-01-13            0.41%    passed     98.10%
- 154  PZ086258.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-05            1.16%    passed     99.66%
- 155  PZ086277.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-23            7.42%    passed     94.26%
- 156  PZ086204.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            1.89%    passed     99.82%
- 157  PZ086280.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            8.63%    passed     97.70%
- 158  PZ086281.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            8.16%    passed     98.18%
- 159  PZ086282.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            6.86%    passed     94.42%
- 160  PZ086252.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            2.13%    passed     99.72%
- 161  PZ086283.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            7.43%    passed     97.12%
- 162  PZ086253.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            3.01%    passed     99.48%
- 163  PZ086187.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-XX-XX            3.66%    passed     99.80%
- 164  PZ086248.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            3.49%    passed     99.86%
- 165  PZ086289.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            3.33%    passed     99.61%
- 166  OZ470518.1_DELIM-0x7c_Slovakia_DELIM-0x7c_2026-02-12          0.58%    passed     99.69%
- 167  OZ470519.1_DELIM-0x7c_Slovakia_DELIM-0x7c_2026-02-05          0.41%    passed     98.47%
- 168  OZ415105.1_DELIM-0x7c_Slovakia_DELIM-0x7c_2026-02-09          0.56%    passed     99.87%
- 169  OZ030004.1_DELIM-0x7c_Slovakia_DELIM-0x7c_2024-02-21          2.75%    passed     96.08%
- 170  OZ373550.1_DELIM-0x7c_Switzerland_DELIM-0x7c_2024-04-29       9.71%    passed     93.37%
- 171  OZ250410.1_DELIM-0x7c_Slovakia_DELIM-0x7c_2025-01-29          0.54%    passed     99.68%
- 172  OZ373386.1_DELIM-0x7c_Switzerland_DELIM-0x7c_2024-03-19      10.71%    passed     79.73%
- 173  OZ373519.1_DELIM-0x7c_Switzerland_DELIM-0x7c_2024-04-11       4.55%    passed     98.30%
- 174  PZ086296.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            7.07%    passed     98.17%
- 175  PZ086171.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-14            4.92%    passed     96.50%
- 176  PZ086215.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            2.61%    passed     98.98%
- 177  PZ086172.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-05            2.08%    passed     99.12%
- 178  PZ086307.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-05            1.67%    passed     99.38%
- 179  PZ086271.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-24            3.14%    passed     99.20%
- 180  PZ086288.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-16            2.79%    passed     99.61%
- 181  PZ086286.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-04            4.11%    passed     99.63%
- 182  PZ086265.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-06-02            5.59%    passed     95.59%
- 183  PZ086259.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            1.44%    passed     98.76%
- 184  PZ086261.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            5.14%    passed     92.44%
- 185  PZ086263.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            2.29%    passed     99.31%
- 186  PZ086301.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            4.46%    passed     98.59%
- 187  PZ086221.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            3.51%    passed     99.50%
- 188  PZ086304.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-30           11.35%    passed     95.56%
- 189  PZ086176.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-03-18            0.45%    passed     99.17%
- 190  PQ616105.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-16            9.55%    passed     92.31%
- 191  PZ086206.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-17            2.27%    passed     99.95%
- 192  PV827140.1_DELIM-0x7c_Australia_DELIM-0x7c_2021-02-28         2.81%    passed     99.98%
- 193  LC654446.1_DELIM-0x7c_Japan_DELIM-0x7c_2020-XX-XX             0.20%    passed     99.09%
- 194  PQ466854.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2022-05-05    2.36%    passed     99.78%
- 195  PV471828.1_DELIM-0x7c_France_DELIM-0x7c_2021-09-13            1.94%    passed     99.24%
- 196  PV471860.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-18            1.81%    passed     99.38%
- 197  PV827139.1_DELIM-0x7c_Australia_DELIM-0x7c_2021-02-15         2.81%    passed     99.94%
- 198  PZ086231.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-03-18            0.45%    passed     99.04%
- 199  PZ086302.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-02            0.96%    passed     99.76%
- 200  PQ616083.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-12            5.16%    passed     98.28%
- 201  PQ616092.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-03-05            1.54%    passed     99.30%
- 202  PQ616091.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-03-04            2.58%    passed     98.86%
- 203  MW202340.1_DELIM-0x7c_USA_DELIM-0x7c_2018-XX-XX               0.40%    passed     99.85%
- 204  PQ187609.1_DELIM-0x7c_Tanzania_DELIM-0x7c_2017-06-06          0.25%    passed     97.44%
- 205  PQ187616.1_DELIM-0x7c_Tanzania_DELIM-0x7c_2017-01-09          0.25%    passed     98.98%
- 206  KY684760.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.34%    passed     99.89%
- 207  MT118677.1_DELIM-0x7c_USA_DELIM-0x7c_2018-XX-XX               0.37%    passed     99.92%
- 208  MW532105.1_DELIM-0x7c_China_DELIM-0x7c_2017-09-06             0.38%    passed     99.93%
- 209  ON554132.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.41%    passed     99.97%
- 210  PV471826.1_DELIM-0x7c_France_DELIM-0x7c_2021-03-10           14.94%    passed     95.51%
- 211  ON554133.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.40%    passed     99.98%
- 212  PQ037244.1_DELIM-0x7c_USA_DELIM-0x7c_2023-04-XX               0.33%    passed    100.00%
- 213  PQ037245.1_DELIM-0x7c_USA_DELIM-0x7c_2023-04-XX               0.30%    passed     99.97%
- 214  OR909070.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-XX-XX            0.75%    passed     99.93%
- 215  OY757580.1_DELIM-0x7c_Australia_DELIM-0x7c_2021-02-14         0.39%    passed     99.97%
- 216  PQ616104.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-12            4.20%    passed     95.17%
- 217  PQ616081.1_DELIM-0x7c_Russia_DELIM-0x7c_2020-02-26            2.12%    passed     99.87%
- 218  PQ616088.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-05            0.50%    passed     99.60%
- 219  OR266950.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-05            0.50%    passed     99.60%
- 220  PZ086232.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-02-23            1.31%    passed     99.74%
- 221  PX055894.1_DELIM-0x7c_Malaysia_DELIM-0x7c_2023-03-XX          0.30%    passed     99.55%
- 222  PX055895.1_DELIM-0x7c_Malaysia_DELIM-0x7c_2023-03-XX         11.18%    passed     72.85%
- 223  PZ086237.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-19            8.09%    passed     92.96%
- 224  PZ086238.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-04-06            1.70%    passed     99.04%
- 225  LC654445.1_DELIM-0x7c_Japan_DELIM-0x7c_2020-XX-XX             0.21%    passed     98.84%
- 226  PQ449607.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-03-31    7.17%    passed     99.16%
- 227  ON554097.1_DELIM-0x7c_China_DELIM-0x7c_2015-XX-XX             0.37%    passed     99.55%
- 228  ON554119.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.56%    passed     99.18%
- 229  ON554122.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.45%    passed     99.59%
- 230  ON554098.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.47%    passed     99.59%
- 231  ON554101.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.51%    passed     99.65%
- 232  ON554109.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.30%    passed     98.85%
- 233  ON554120.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.50%    passed     99.64%
- 234  ON554110.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.41%    passed     99.83%
- 235  ON554104.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             2.04%    passed     95.80%
- 236  ON554116.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.45%    passed     99.83%
- 237  ON554131.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.51%    passed     99.64%
- 238  ON554108.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.40%    passed     99.78%
- 239  ON554118.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.40%    passed     99.75%
- 240  ON554112.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.51%    passed     99.60%
- 241  ON554114.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.39%    passed     99.64%
- 242  ON554111.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.36%    passed     99.93%
- 243  ON554099.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.50%    passed     99.77%
- 244  ON554105.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.56%    passed     99.80%
- 245  OK073084.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.37%    passed     96.74%
- 246  ON554113.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.40%    passed     99.82%
- 247  ON554115.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.41%    passed     99.70%
- 248  ON554117.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.34%    passed     99.81%
- 249  ON554125.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.43%    passed     99.89%
- 250  ON554129.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.45%    passed     99.91%
- 251  ON554128.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.40%    passed     99.97%
- 252  MW587037.1_DELIM-0x7c_China_DELIM-0x7c_2017-12-XX             0.37%    passed     99.86%
- 253  MW587038.1_DELIM-0x7c_China_DELIM-0x7c_2017-12-XX             1.01%    passed     99.92%
- 254  ON554126.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.47%    passed     99.94%
- 255  ON554127.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.36%    passed     99.98%
- 256  MW800646.1_DELIM-0x7c_China_DELIM-0x7c_2017-11-28             1.07%    passed     99.74%
- 257  OK073078.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.43%    passed     98.34%
- 258  OK073079.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.22%    passed     97.47%
- 259  OK073082.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.27%    passed     97.53%
- 260  MW532104.1_DELIM-0x7c_China_DELIM-0x7c_2017-08-02             0.39%    passed     99.87%
- 261  OK073083.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.23%    passed     98.30%
- 262  ON729316.1_DELIM-0x7c_USA_DELIM-0x7c_2019-XX-XX               0.49%    passed     99.72%
- 263  MN306046.1_DELIM-0x7c_USA_DELIM-0x7c_2019-XX-XX               0.28%    passed     99.70%
- 264  OK073077.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.22%    passed     98.76%
- 265  ON554135.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.40%    passed     99.60%
- 266  ON554137.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.39%    passed     99.58%
- 267  ON554139.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.41%    passed     99.60%
- 268  ON554136.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.39%    passed     99.99%
- 269  ON554138.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.36%    passed     99.97%
- 270  MT797634.1_DELIM-0x7c_Hong_Kong_DELIM-0x7c_2020-01-XX         0.31%    passed     99.62%
- 271  MW532103.1_DELIM-0x7c_China_DELIM-0x7c_2017-05-02             0.66%    passed     99.88%
- 272  ON554100.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.62%    passed     99.89%
- 273  KY369912.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.48%    passed     99.58%
- 274  ON554103.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.31%    passed     99.86%
- 275  ON554106.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.50%    passed    100.00%
- 276  ON554102.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.52%    passed     99.44%
- 277  ON554121.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.29%    passed     99.46%
- 278  ON554130.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.48%    passed     99.93%
- 279  ON554124.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.41%    passed     99.96%
- 280  ON554123.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.42%    passed     99.59%
- 281  MW587035.1_DELIM-0x7c_China_DELIM-0x7c_2017-12-XX             0.61%    passed     99.82%
- 282  ON554107.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.26%    passed     98.28%
- 283  MN369046.1_DELIM-0x7c_USA_DELIM-0x7c_2018-XX-XX               0.97%    passed     99.47%
- 284  KY369914.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.34%    passed     99.80%
- 285  PQ187610.1_DELIM-0x7c_Singapore_DELIM-0x7c_2010-04-06         0.25%    passed     98.84%
- 286  PQ187611.1_DELIM-0x7c_Singapore_DELIM-0x7c_2010-05-17         0.21%    passed     98.08%
- 287  PQ187612.1_DELIM-0x7c_Singapore_DELIM-0x7c_2011-06-15         0.24%    passed     98.52%
- 288  PQ187613.1_DELIM-0x7c_Singapore_DELIM-0x7c_2011-06-30         0.23%    passed     97.25%
- 289  PQ187614.1_DELIM-0x7c_Singapore_DELIM-0x7c_2011-11-10         0.23%    passed     97.99%
- 290  PQ187615.1_DELIM-0x7c_Singapore_DELIM-0x7c_2011-11-10         0.25%    passed     98.41%
- 291  KU291448.1_DELIM-0x7c_Germany_DELIM-0x7c_2015-XX-XX           1.16%    passed     99.17%
- 292  MW532106.1_DELIM-0x7c_China_DELIM-0x7c_2009-06-09             0.63%    passed     99.80%
- 293  JX503060.1_DELIM-0x7c_Netherlands_DELIM-0x7c_2010-XX-XX       0.30%    passed     99.67%
- 294  AB691767.2_DELIM-0x7c_Japan_DELIM-0x7c_2008-XX-XX             0.25%    passed     98.85%
- 295  MW532107.1_DELIM-0x7c_China_DELIM-0x7c_2009-04-15             0.38%    passed     99.62%
- 296  PZ086262.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-01-24            4.81%    passed     98.99%
- 297  PQ616087.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-01-24            4.08%    passed     99.48%
- 298  ON554134.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.45%    passed     99.90%
- 299  PZ086290.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-04-16            2.54%    passed     99.94%
- 300  PQ466793.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-12-15    5.79%    passed     99.26%
- 301  PQ466798.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-05    2.21%    passed     99.90%
- 302  PQ466804.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-24    2.21%    passed     99.93%
- 303  PQ466810.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-30    2.21%    passed     99.93%
- 304  PQ466821.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-12    2.21%    passed     99.95%
- 305  PQ466822.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-11    2.21%    passed     99.95%
- 306  PQ466819.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-10    2.21%    passed     99.95%
- 307  PQ466824.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-14    2.21%    passed     99.85%
- 308  PQ466813.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-31    2.21%    passed     99.93%
- 309  PQ466814.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-31    2.21%    passed     99.92%
- 310  PQ466839.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-02-22    2.21%    passed     99.88%
- 311  PQ466840.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-03-08    2.21%    passed     99.91%
- 312  PQ466849.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-29    3.20%    passed     99.67%
- 313  PQ466848.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-27    2.21%    passed     99.95%
- 314  PQ466845.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-18    2.21%    passed     99.83%
- 315  PQ466847.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-26    2.21%    passed     99.79%
- 316  PQ466844.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-14    2.21%    passed     99.87%
- 317  PQ466846.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-18    2.21%    passed     99.85%
- 318  PQ466851.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2022-03-27    2.36%    passed     99.93%
- 319  PQ466850.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2022-02-21    9.36%    passed     99.06%
- 320  PQ466789.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-04-05    2.21%    passed     99.87%
- 321  PQ466790.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-04-25    2.21%    passed     99.53%
- 322  PQ466792.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-12-05    2.21%    passed     99.99%
- 323  PQ466835.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-03-15    9.17%    passed     99.59%
- 324  PQ466794.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-12-17    2.21%    passed     99.98%
- 325  PQ466800.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-11    2.21%    passed     99.95%
- 326  PQ466805.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-25    2.21%    passed     99.97%
- 327  PQ466827.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-16    2.22%    passed     99.98%
- 328  PQ466796.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-05    2.21%    passed     99.99%
- 329  PQ466817.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-07    2.21%    passed     99.98%
- 330  PQ466802.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-22    2.21%    passed     99.98%
- 331  PQ466803.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-24    2.21%    passed     99.98%
- 332  PQ466816.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-05    2.21%    passed     99.98%
- 333  PQ466830.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-23    2.21%    passed     99.97%
- 334  PQ466826.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-15    2.21%    passed     99.96%
- 335  PQ466808.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-29    2.21%    passed     99.98%
- 336  PQ466797.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-05    2.21%    passed     99.98%
- 337  PQ466799.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-08    2.21%    passed     99.99%
- 338  PQ466811.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-30    2.21%    passed    100.00%
- 339  PQ466829.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-17    2.21%    passed     99.99%
- 340  PQ466832.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-24    7.10%    passed     97.77%
- 341  PQ466837.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-04-03    3.59%    passed     99.35%
- 342  PQ466812.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-30    2.21%    passed     99.96%
- 343  PQ466833.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-28    2.21%    passed     99.99%
- 344  PQ466834.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-03-06    2.21%    passed     99.99%
- 345  PQ466806.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-25    8.90%    passed     86.64%
- 346  PQ466820.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-10    2.21%    passed     99.97%
- 347  PQ466836.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-03-17    2.21%    passed     99.93%
- 348  PQ466838.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-05-13    2.21%    passed     99.97%
- 349  PQ466818.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-08    2.40%    passed     99.90%
- 350  PQ466795.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-03    2.21%    passed     99.99%
- 351  PQ466809.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-30    5.71%    passed     97.60%
- 352  PQ466815.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-01    2.22%    passed     99.91%
- 353  PQ466828.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-19    2.22%    passed     99.94%
- 354  PQ466807.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-29    2.21%    passed     99.99%
- 355  PQ466843.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-07-19    2.21%    passed     99.99%
- 356  PQ466841.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-03-24    2.21%    passed     99.98%
- 357  PQ466823.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-13    2.21%    passed     99.97%
- 358  PQ466825.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-15    2.21%    passed     99.91%
- 359  PQ466831.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-24   17.77%    passed     97.64%
- 360  KY967357.1_DELIM-0x7c_USA_DELIM-0x7c_2015-XX-XX               0.36%    passed     98.46%
- 361  KY369908.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.54%    passed     99.86%
- 362  KY983587.1_DELIM-0x7c_USA_DELIM-0x7c_2015-XX-XX               0.38%    passed     99.77%
- 363  MT438697.1_DELIM-0x7c_USA_DELIM-0x7c_2017-02-24               0.21%    passed     97.17%
- 364  MT438699.1_DELIM-0x7c_USA_DELIM-0x7c_2017-02-27               1.31%    passed     99.84%
- 365  MT438698.1_DELIM-0x7c_USA_DELIM-0x7c_2017-02-24               0.42%    passed     98.16%
- 366  KY621348.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.72%    passed     99.35%
- 367  KY674914.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               1.16%    passed     97.64%
- 368  KY369909.2_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               2.73%    passed     99.79%
- 369  KY369913.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.37%    passed     97.09%
- 370  PQ466791.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-10-19    2.21%    passed     99.93%
- 371  PQ466801.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-13    2.21%    passed     99.93%
- 372  PZ086219.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-15            1.01%    passed     99.84%
- 373  PX731574.1_DELIM-0x7c_USA_DELIM-0x7c_2023-XX-XX               0.27%    passed     99.80%
- 374  PV685437.1_DELIM-0x7c_USA_DELIM-0x7c_2024-06-05               0.36%    passed     99.95%
- 375  PV685445.1_DELIM-0x7c_USA_DELIM-0x7c_2024-05-21               0.36%    passed     99.93%
- 376  PV685449.1_DELIM-0x7c_USA_DELIM-0x7c_2024-04-30               0.27%    passed     99.68%
- 377  PQ037246.1_DELIM-0x7c_USA_DELIM-0x7c_2023-04-XX               0.32%    passed     99.94%
- 378  PQ037247.1_DELIM-0x7c_USA_DELIM-0x7c_2023-04-XX               0.34%    passed     99.98%
- 379  PV471871.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-03            9.24%    passed     77.64%
- 380  MF542265.1_DELIM-0x7c_Haiti_DELIM-0x7c_2016-03-XX             0.26%    passed     99.49%
- 381  PZ086239.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-10            1.75%    passed     99.74%
- 382  PV471833.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-12            1.82%    passed     99.03%
- 383  PV471869.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-01            6.25%    passed     94.40%
- 384  PV471877.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-11            5.48%    passed     90.96%
- 385  PV471845.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-11            8.46%    passed     89.51%
- 386  PV471841.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-30           11.84%    passed     82.59%
- 387  PP187313.1_DELIM-0x7c_USA_DELIM-0x7c_2021-06-18               0.29%    passed     98.67%
- 388  PV471814.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-17            8.66%    passed     98.51%
- 389  PV471888.1_DELIM-0x7c_France_DELIM-0x7c_2021-04-17           16.09%    passed     63.66%
- 390  PV471863.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-20            8.79%    passed     94.99%
- 391  PV471894.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-29           13.81%    passed     66.73%
- 392  PV471834.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-14            8.54%    passed     97.12%
- 393  PV471886.1_DELIM-0x7c_France_DELIM-0x7c_2022-03-06           10.53%    passed     92.27%
- 394  PV471916.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-13           13.71%    passed     82.61%
- 395  PV471928.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-24            7.94%    passed     98.71%
- 396  PV471903.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-12           16.81%    passed     55.83%
- 397  ON461752.1_DELIM-0x7c_USA_DELIM-0x7c_2021-05-28               0.35%    passed     99.70%
- 398  ON461753.1_DELIM-0x7c_USA_DELIM-0x7c_2021-05-31               0.30%    passed     99.52%
- 399  ON461754.1_DELIM-0x7c_USA_DELIM-0x7c_2021-05-28               0.21%    passed     99.51%
- 400  PV471816.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-21            7.30%    passed     97.80%
- 401  PV471830.1_DELIM-0x7c_France_DELIM-0x7c_2021-09-21           12.87%    passed     94.65%
- 402  PV471893.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-24           13.46%    passed     94.86%
- 403  PV471827.1_DELIM-0x7c_France_DELIM-0x7c_2021-06-15           10.19%    passed     97.99%
- 404  PV471899.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-07           11.06%    passed     93.80%
- 405  PV471844.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-08           10.31%    passed     94.34%
- 406  PV471853.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-09            1.72%    passed     98.76%
- 407  OK073080.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.66%    passed     97.53%
- 408  OK073081.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.92%    passed     97.51%
- 409  MT438696.1_DELIM-0x7c_USA_DELIM-0x7c_2016-02-09               0.23%    passed     98.41%
- 410  KY369910.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.58%    passed     99.97%
- 411  KY369911.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.42%    passed     99.99%
- 412  MT438700.1_DELIM-0x7c_USA_DELIM-0x7c_2017-01-27               0.20%    passed     96.71%
- 413  PV471883.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-19            6.55%    passed     96.26%
- 414  PV471851.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-04           10.83%    passed     86.33%
- 415  PV471822.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-04            5.91%    passed     94.56%
- 416  MH828489.1_DELIM-0x7c_Viet_Nam_DELIM-0x7c_2013-10-22          0.28%    passed     99.09%
- 417  PQ616079.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-10            1.98%    passed     99.96%
- 418  OR266952.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-10            1.98%    passed     99.96%
- 419  PQ616080.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-17           15.62%    passed     98.21%
- 420  ON461751.1_DELIM-0x7c_USA_DELIM-0x7c_2019-11-02               0.41%    passed     99.88%
- 421  PZ086266.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-04            8.20%    passed     83.96%
- 422  PQ616089.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-04            7.51%    passed     90.92%
- 423  KY674919.1_DELIM-0x7c_USA_DELIM-0x7c_2008-XX-XX               0.67%    passed     98.55%
- 424  KF514429.1_DELIM-0x7c_USA_DELIM-0x7c_1989-02-07               7.66%    passed     63.46%
- 425  KF514430.1_DELIM-0x7c_USA_DELIM-0x7c_1993-03-18               0.63%    passed     98.46%
- 426  KF514432.1_DELIM-0x7c_USA_DELIM-0x7c_1993-02-22               0.66%    passed     96.79%
- 427  KF514433.1_DELIM-0x7c_USA_DELIM-0x7c_1993-03-11               0.64%    passed     96.44%
- 428  AB691764.2_DELIM-0x7c_Japan_DELIM-0x7c_2004-XX-XX             0.22%    passed     98.72%
- 429  AB691765.2_DELIM-0x7c_Japan_DELIM-0x7c_2004-XX-XX             0.26%    passed     99.26%
- 430  AB691766.2_DELIM-0x7c_Japan_DELIM-0x7c_2004-XX-XX             0.27%    passed     99.46%
- 431  JX503061.1_DELIM-0x7c_Italy_DELIM-0x7c_2009-XX-XX             0.48%    passed     99.05%
- 432  PZ086226.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-04-29            3.64%    passed     99.29%
- 433  PZ086264.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-02-09            2.59%    passed     97.86%
- 434  PQ616078.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-02-09            1.90%    passed     99.30%
- 435  PQ616111.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-04-07           19.11%    passed     84.35%
- 436  OR266951.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-02-09            4.59%    passed     99.88%
- 437  PQ616108.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-24            7.16%    passed     98.76%
- 438  MW039392.1_DELIM-0x7c_Italy_DELIM-0x7c_2020-03-18             1.85%    passed     97.87%
- 439  PZ086178.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-04-23            2.12%    passed     99.30%
- 440  PZ086244.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-07           10.71%    passed     89.92%
- 441  PZ086268.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-04-12            4.77%    passed     98.31%
- 442  PZ086180.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-18           11.64%    passed     95.50%
- 443  PZ086246.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-18           11.47%    passed     96.02%
- 444  PZ086182.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-28            5.43%    passed     94.76%
- 445  PZ086188.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-XX-XX           15.72%    passed     98.87%
- 446  PZ086300.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-28            3.65%    passed     98.35%
- 447  PZ086305.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-07-04           18.29%    passed     90.01%
- 448  PZ086173.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-14            9.32%    passed     96.28%
- 449  PZ086218.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            3.94%    passed     96.52%
- 450  PZ086213.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-23            5.22%    passed     83.84%
- 451  PZ086175.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-XX-XX            8.66%    passed     95.59%
- 452  PZ086254.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-06-06            8.47%    passed     92.75%
- 453  PQ616072.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-02-12            7.66%    passed     98.21%
- 454  PQ616073.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-23            3.76%    passed     98.74%
- 455  PQ616075.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-05-04           16.44%    passed     96.94%
- 456  PQ616076.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-05-22            9.13%    passed     98.25%
- 457  PZ086217.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-07-04            9.85%    passed     96.82%
- 458  PZ086293.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-07-19           18.27%    passed     90.38%
- 459  PQ963850.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-05-22           18.37%    passed     90.24%
- 460  PQ963851.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-05-23            3.94%    passed     98.60%
- 461  PX625997.1_DELIM-0x7c_Senegal_DELIM-0x7c_2023-01-26           2.45%    passed     98.71%
- 462  PV471873.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-13           11.01%    passed     73.23%
- 463  PX625998.1_DELIM-0x7c_Senegal_DELIM-0x7c_2023-01-13           2.93%    passed     99.99%
- 464  PQ616095.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-03-18           20.13%    passed     65.38%
- 465  PV471818.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-14            7.67%    passed     99.05%
- 466  PV471912.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-01           11.40%    passed     97.80%
- 467  PV471832.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-04            4.61%    passed     99.97%
- 468  PV471856.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-14            8.78%    passed     97.89%
- 469  PV471896.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-01           16.30%    passed     67.56%
- 470  PV471905.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-16            8.62%    passed     99.17%
- 471  PV471908.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-07            5.26%    passed     98.79%
- 472  PV471843.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-30           11.49%    passed     82.74%
- 473  PV471915.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-12           19.23%    passed     54.20%
- 474  PV471918.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-17           16.95%    passed     70.19%
- 475  PV471854.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-10           13.60%    passed     77.22%
- 476  PV471901.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-09            8.87%    passed     98.08%
- 477  PV471920.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-18           13.83%    passed     75.05%
- 478  PV471848.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-27            9.58%    passed     96.99%
- 479  PV471892.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-19            8.64%    passed     98.52%
- 480  PV471914.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-10           15.96%    passed     45.08%
- 481  PV471932.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-23            8.84%    passed     98.47%
- 482  PV471931.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-16           10.25%    passed     97.48%
- 483  PV471925.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-12           11.29%    passed     79.81%
- 484  PV471929.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-03           19.26%    passed     50.65%
- 485  PV471921.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-19           15.99%    passed     44.16%
- 486  PV471923.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-02           10.88%    passed     91.41%
- 487  PV471922.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-19           19.25%    passed     52.49%
- 488  PV471898.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-06           19.17%    passed     52.44%
- 489  PV471917.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-14            8.64%    passed     97.64%
- 490  PV471882.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-23            7.44%    passed     98.82%
- 491  PV471930.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-12           13.75%    passed     83.87%
- 492  PV471924.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-11            8.83%    passed     98.38%
- 493  PV471913.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-05            4.16%    passed     99.98%
- 494  PV471861.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-20            6.21%    passed     99.67%
- 495  PV471895.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-30           16.34%    passed     42.91%
- 496  PV471902.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-10           16.34%    passed     44.42%
- 497  PV471927.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-23            8.82%    passed     98.63%
- 498  PV471897.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-03            4.52%    passed     99.97%
- 499  PV471926.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-16           13.64%    passed     73.55%
- 500  PV471890.1_DELIM-0x7c_France_DELIM-0x7c_2021-10-17            5.95%    passed     99.12%
- 501  PV471910.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-27           11.38%    passed     96.00%
- 502  PV471864.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-20            4.09%    passed     99.90%
- 503  PV471911.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-10            6.30%    passed     99.86%
- 504  PV471906.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-22            6.72%    passed     99.62%
- 505  PV471934.1_DELIM-0x7c_France_DELIM-0x7c_2022-03-08           11.44%    passed     96.17%
- 506  PV471900.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-09            7.56%    passed     98.73%
- 507  PV471875.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-06            7.53%    passed     98.17%
- 508  PV471891.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-02           11.02%    passed     92.20%
- 509  PV471935.1_DELIM-0x7c_France_DELIM-0x7c_2022-03-07            5.58%    passed     98.19%
- 510  PV471933.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-08           16.73%    passed     84.42%
- 511  PV471880.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-13            8.34%    passed     97.51%
- 512  PV471847.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-26           15.28%    passed     70.23%
- 513  PV471821.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-04            6.30%    passed     99.18%
- 514  PV471904.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-09           13.50%    passed     83.68%
- 515  PV471840.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-24            6.10%    passed     99.98%
- 516  PV471907.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-28           14.29%    passed     85.20%
- 517  PV471909.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-11           10.27%    passed     97.97%
- 518  PV471870.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-01            7.71%    passed     97.98%
- 519  PV471889.1_DELIM-0x7c_France_DELIM-0x7c_2021-08-19           12.00%    passed     68.11%
- 520  PZ086174.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-10-16            8.75%    passed     85.69%
- 521  PZ086285.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-02-12            8.65%    passed     85.13%
- 522  PQ466842.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-06-19    5.76%    passed     98.22%
- 523  PZ086177.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-02-13            3.53%    passed     99.59%
- 524  PQ616084.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-27            5.17%    passed     92.89%
- 525  PQ616085.1_DELIM-0x7c_Russia_DELIM-0x7c_2018-04-23           12.95%    passed     88.52%
- 526  PZ086222.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-14            7.01%    passed     99.47%
- 527  OZ373357.1_DELIM-0x7c_Switzerland_DELIM-0x7c_2024-04-02      11.31%    passed     87.75%
- 528  PZ086260.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-06-25            3.58%    passed     97.30%
- 529  PZ086179.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-05-10           12.41%    passed     81.41%
- 530  PZ086267.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-05-15            6.25%    passed     94.85%
- 531  PZ086184.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-19            7.84%    passed     90.06%
- 532  PZ086272.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09           10.29%    passed     92.32%
- 533  PZ086306.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-10-29           11.37%    passed     99.92%
- 534  PZ086275.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-19            8.48%    passed     98.25%
- 535  PV471865.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-26           10.85%    passed     92.28%
- 536  PV471881.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-19           10.67%    passed     98.49%
- 537  PV471919.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-17           10.49%    passed     98.69%
-****  TOTAL                                                         4.28%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Analyzing sequences: done in 0.00370717 secs using 524.3% CPU
+   1  PZ496046.1_DELIM-0x7c_Peru_DELIM-0x7c_2025-02-19              0.70%    passed     99.76%
+   2  PZ086190.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-17            0.73%    passed     99.72%
+   3  PZ086207.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-25            2.58%    passed     99.61%
+   4  PZ086203.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-18            2.24%    passed     99.04%
+   5  PZ086274.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-01-31            5.31%    passed     95.71%
+   6  PZ086198.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-30            2.24%    passed     99.15%
+   7  PZ086202.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-14            2.24%    passed     99.62%
+   8  PZ086208.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-17            2.60%    passed     99.55%
+   9  PZ086201.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-26            2.24%    passed     99.71%
+  10  PZ086270.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            1.92%    passed     99.73%
+  11  PQ525429.1_DELIM-0x7c_USA_DELIM-0x7c_2024-06-XX               1.57%    passed     99.80%
+  12  PV685441.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-14               0.70%    passed     99.66%
+  13  PX055897.1_DELIM-0x7c_Malaysia_DELIM-0x7c_2024-03-XX          0.76%    passed     99.98%
+  14  PV685439.1_DELIM-0x7c_USA_DELIM-0x7c_2024-03-06               0.69%    passed     99.82%
+  15  PV685440.1_DELIM-0x7c_USA_DELIM-0x7c_2024-04-08               0.73%    passed     99.68%
+  16  PV685447.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-27               0.69%    passed     99.70%
+  17  PV685448.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-29               0.69%    passed     99.70%
+  18  PV685446.1_DELIM-0x7c_USA_DELIM-0x7c_2024-03-24               0.69%    passed     99.61%
+  19  PZ086273.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-18            4.56%    passed     98.56%
+  20  PV717809.1_DELIM-0x7c_USA_DELIM-0x7c_2025-02-17               0.72%    passed     99.83%
+  21  PV717794.1_DELIM-0x7c_USA_DELIM-0x7c_2025-02-23               1.00%    passed     99.98%
+  22  PZ086200.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-20            2.24%    passed     98.71%
+  23  PZ086294.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-17            5.04%    passed     93.32%
+  24  PQ616096.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-03-17            5.08%    passed     92.99%
+  25  ON791801.1_DELIM-0x7c_USA_DELIM-0x7c_2022-XX-XX               0.69%    passed     99.66%
+  26  PX731573.1_DELIM-0x7c_USA_DELIM-0x7c_2023-XX-XX               0.69%    passed     99.63%
+  27  PQ466852.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2022-04-08    3.91%    passed     99.16%
+  28  PQ466857.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2023-03-10    2.73%    passed     99.59%
+  29  PQ466855.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2023-02-08    2.76%    passed     99.54%
+  30  PQ466856.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2023-03-05    3.92%    passed     99.16%
+  31  PQ466853.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2022-04-22    2.73%    passed     99.87%
+  32  PX731576.1_DELIM-0x7c_USA_DELIM-0x7c_2023-XX-XX               0.69%    passed     99.66%
+  33  PZ086193.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-10            1.00%    passed     99.91%
+  34  PZ086298.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            6.77%    passed     92.57%
+  35  PZ086192.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-21            1.00%    passed     99.99%
+  36  PZ086194.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-10            1.00%    passed     99.93%
+  37  PQ616112.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-04-17            9.42%    passed     93.70%
+  38  PZ086278.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-28            5.04%    passed     94.35%
+  39  PZ086249.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-26            1.67%    passed     99.77%
+  40  PZ086250.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-17            1.57%    passed     99.59%
+  41  PZ086251.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-17            1.77%    passed     99.81%
+  42  PZ086276.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-26            6.59%    passed     96.36%
+  43  PZ086297.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-19            6.98%    passed     98.37%
+  44  PZ086279.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            5.11%    passed     95.24%
+  45  PZ086284.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21           10.29%    passed     96.92%
+  46  PX731575.1_DELIM-0x7c_USA_DELIM-0x7c_2023-XX-XX               0.69%    passed     99.53%
+  47  PV827141.1_DELIM-0x7c_Australia_DELIM-0x7c_2022-07-05         3.26%    passed     99.79%
+  48  PV685444.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-18               0.69%    passed     99.58%
+  49  PV685442.1_DELIM-0x7c_USA_DELIM-0x7c_2023-07-18               0.71%    passed     99.50%
+  50  PV685443.1_DELIM-0x7c_USA_DELIM-0x7c_2024-04-17               0.69%    passed     99.78%
+  51  PQ963849.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-04-17            2.62%    passed     99.95%
+  52  PQ963848.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-04-15            4.87%    passed     93.96%
+  53  PZ086195.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-10-29            1.12%    passed     99.96%
+  54  PZ086196.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-25            0.90%    passed     99.64%
+  55  PZ086240.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-04-23            2.45%    passed     99.54%
+  56  PZ086245.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-05-10           14.95%    passed     52.41%
+  57  PZ086197.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-04-25            0.90%    passed     99.70%
+  58  PV471813.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-13            2.35%    passed     99.78%
+  59  PV471815.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-18            2.36%    passed     99.74%
+  60  PV471838.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-19            2.75%    passed     99.94%
+  61  PV471872.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-03           14.15%    passed     93.69%
+  62  PV471855.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-13            2.38%    passed     99.93%
+  63  PV471850.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-03            2.38%    passed     99.90%
+  64  PV471874.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-19            2.36%    passed     99.89%
+  65  PV471819.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-15            2.22%    passed     99.90%
+  66  PV471836.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-18            2.06%    passed     99.86%
+  67  PV471839.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-23            2.38%    passed     99.82%
+  68  PV471824.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-12            2.35%    passed     99.89%
+  69  PV471867.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-29            2.38%    passed     99.80%
+  70  PV471849.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-03            9.20%    passed     96.13%
+  71  PV471879.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-13            3.11%    passed     99.95%
+  72  PV471859.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-17            3.21%    passed     99.87%
+  73  PV471862.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-20            6.99%    passed     94.22%
+  74  PV471887.1_DELIM-0x7c_France_DELIM-0x7c_2022-03-16            7.13%    passed     91.88%
+  75  PV471837.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-19            2.31%    passed     99.88%
+  76  PV471820.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-02            2.30%    passed     99.92%
+  77  PV471857.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-16            3.21%    passed     99.90%
+  78  PV471829.1_DELIM-0x7c_France_DELIM-0x7c_2021-09-27            6.97%    passed     94.67%
+  79  PV471868.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-31            2.26%    passed     99.80%
+  80  PV471876.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-08            2.36%    passed     99.87%
+  81  PV471831.1_DELIM-0x7c_France_DELIM-0x7c_2021-10-27            5.52%    passed     97.35%
+  82  PV471852.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-07            2.37%    passed     99.90%
+  83  PV471823.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-06            2.36%    passed     99.95%
+  84  PV471825.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-18            2.37%    passed     99.98%
+  85  PV471885.1_DELIM-0x7c_France_DELIM-0x7c_2022-03-01            2.62%    passed     99.82%
+  86  PV471866.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-27            2.34%    passed     99.91%
+  87  PV471817.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-07           16.89%    passed     84.52%
+  88  PV471858.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-17            5.80%    passed     97.38%
+  89  PV471846.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-18            6.52%    passed     97.84%
+  90  PV471878.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-11            2.76%    passed     99.79%
+  91  PV471884.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-26            2.84%    passed     99.29%
+  92  PV471835.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-17            4.33%    passed     99.17%
+  93  PV471842.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-30           10.52%    passed     97.38%
+  94  PZ086292.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-03            2.74%    passed     99.28%
+  95  PZ086299.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21           10.50%    passed     90.63%
+  96  PZ086308.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-05            5.24%    passed     96.96%
+  97  PZ086205.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-04-06            2.65%    passed     99.96%
+  98  PZ086199.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-17            2.19%    passed     99.52%
+  99  PQ963852.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-07-17            9.77%    passed     92.85%
+ 100  PV631258.1_DELIM-0x7c_China_DELIM-0x7c_2023-12-XX             0.82%    passed     99.77%
+ 101  LC922646.1_DELIM-0x7c_Japan_DELIM-0x7c_2024-XX-XX             0.70%    passed     99.77%
+ 102  PX055896.1_DELIM-0x7c_Malaysia_DELIM-0x7c_2023-03-XX          5.43%    passed     88.90%
+ 103  PQ616100.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-21            1.58%    passed     99.99%
+ 104  PZ086181.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-13           12.85%    passed     90.67%
+ 105  PZ086256.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-13           12.70%    passed     91.62%
+ 106  PZ086185.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-XX-XX            3.55%    passed     99.69%
+ 107  PZ086233.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            3.35%    passed     99.76%
+ 108  PZ086224.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-10-27            1.33%    passed     99.92%
+ 109  PZ086186.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-XX-XX            2.75%    passed     99.90%
+ 110  PZ086234.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            2.56%    passed     99.82%
+ 111  PZ086227.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            5.46%    passed     99.08%
+ 112  PZ086189.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-31            0.72%    passed     99.85%
+ 113  PZ086191.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-14            1.09%    passed     99.84%
+ 114  PZ086209.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-24            2.58%    passed     99.32%
+ 115  PZ086257.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-31            3.91%    passed     98.02%
+ 116  PZ086210.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-12            0.72%    passed     99.77%
+ 117  PZ086212.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-19            0.98%    passed     99.90%
+ 118  PZ086243.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-26            7.01%    passed     98.48%
+ 119  PZ086214.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-27            1.00%    passed     99.92%
+ 120  PZ086223.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            4.55%    passed     99.99%
+ 121  PZ086247.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-15           11.76%    passed     86.44%
+ 122  PZ086183.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-27            2.18%    passed     99.94%
+ 123  PZ086228.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-27            2.03%    passed     99.96%
+ 124  PZ086235.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-31            9.29%    passed     97.36%
+ 125  PZ086216.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-23            3.52%    passed     99.89%
+ 126  PZ086241.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-27            7.81%    passed     95.04%
+ 127  OR266946.1_DELIM-0x7c_Russia_DELIM-0x7c_2022-03-28            1.08%    passed     99.74%
+ 128  PZ086242.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-07-27            7.64%    passed     99.75%
+ 129  PZ086220.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            1.56%    passed     99.99%
+ 130  PZ086225.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-13            8.14%    passed     92.30%
+ 131  PZ086269.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            2.60%    passed     99.85%
+ 132  PZ086295.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            9.32%    passed     97.18%
+ 133  PV685438.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-05               1.11%    passed     99.75%
+ 134  PZ086211.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-24            1.92%    passed     99.89%
+ 135  PZ086229.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-14           15.16%    passed     78.88%
+ 136  PQ616099.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-14           15.18%    passed     78.37%
+ 137  PZ086230.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-28            1.49%    passed     99.73%
+ 138  PZ086291.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-20            5.79%    passed     99.30%
+ 139  PZ086287.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-14            1.70%    passed     99.90%
+ 140  PZ086303.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-30            5.22%    passed     99.97%
+ 141  PZ086236.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-13            4.34%    passed     99.91%
+ 142  PZ086255.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-15            5.60%    passed     99.83%
+ 143  PQ616070.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-01-12            3.98%    passed     99.81%
+ 144  PQ616071.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-01-13            0.82%    passed     98.51%
+ 145  PZ086258.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-05            1.53%    passed     99.95%
+ 146  PZ086277.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-23            7.78%    passed     93.27%
+ 147  PZ086204.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            2.27%    passed     99.58%
+ 148  PZ086280.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            8.98%    passed     97.38%
+ 149  PZ086281.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            8.51%    passed     98.09%
+ 150  PZ086282.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            7.22%    passed     95.50%
+ 151  PZ086252.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            2.50%    passed     99.82%
+ 152  PZ086283.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            7.79%    passed     96.30%
+ 153  PZ086253.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            3.38%    passed     99.87%
+ 154  PZ086187.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-XX-XX            4.03%    passed     99.89%
+ 155  PZ086248.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            3.86%    passed     99.89%
+ 156  PZ086289.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            3.71%    passed     99.71%
+ 157  OZ470518.1_DELIM-0x7c_Slovakia_DELIM-0x7c_2026-02-12          1.02%    passed     99.76%
+ 158  OZ470519.1_DELIM-0x7c_Slovakia_DELIM-0x7c_2026-02-05          0.96%    passed     99.78%
+ 159  OZ415105.1_DELIM-0x7c_Slovakia_DELIM-0x7c_2026-02-09          1.00%    passed     99.88%
+ 160  OZ030004.1_DELIM-0x7c_Slovakia_DELIM-0x7c_2024-02-21          3.20%    passed     96.43%
+ 161  OZ373550.1_DELIM-0x7c_Switzerland_DELIM-0x7c_2024-04-29      10.11%    passed     94.06%
+ 162  OZ250410.1_DELIM-0x7c_Slovakia_DELIM-0x7c_2025-01-29          1.05%    passed     99.93%
+ 163  OZ373386.1_DELIM-0x7c_Switzerland_DELIM-0x7c_2024-03-19      11.11%    passed     79.67%
+ 164  OZ373519.1_DELIM-0x7c_Switzerland_DELIM-0x7c_2024-04-11       4.98%    passed     97.91%
+ 165  PZ086296.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09            7.43%    passed     97.46%
+ 166  PZ086171.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-14            5.28%    passed     98.27%
+ 167  PZ086215.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            2.98%    passed     99.60%
+ 168  PZ086172.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-05            2.45%    passed     99.73%
+ 169  PZ086307.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-05            2.11%    passed     99.57%
+ 170  PZ086271.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-24            3.52%    passed     99.59%
+ 171  PZ086288.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-16            3.16%    passed     99.91%
+ 172  PZ086286.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-04            4.48%    passed     99.92%
+ 173  PZ086265.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-06-02            5.95%    passed     96.60%
+ 174  PZ086259.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            1.92%    passed     99.41%
+ 175  PZ086261.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            5.50%    passed     94.09%
+ 176  PZ086263.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            2.77%    passed     99.76%
+ 177  PZ086301.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            4.83%    passed     99.20%
+ 178  PZ086221.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            3.88%    passed     99.87%
+ 179  PZ086304.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-30           11.68%    passed     95.33%
+ 180  PZ086176.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-03-18            0.91%    passed     99.77%
+ 181  PQ616105.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-16            9.90%    passed     94.98%
+ 182  PZ086206.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-17            2.64%    passed     99.96%
+ 183  PV827140.1_DELIM-0x7c_Australia_DELIM-0x7c_2021-02-28         3.25%    passed     99.95%
+ 184  LC654446.1_DELIM-0x7c_Japan_DELIM-0x7c_2020-XX-XX             0.76%    passed     99.88%
+ 185  PQ466854.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2022-05-05    2.73%    passed     99.92%
+ 186  PV471828.1_DELIM-0x7c_France_DELIM-0x7c_2021-09-13            2.49%    passed     99.90%
+ 187  PV471860.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-18            2.36%    passed     99.93%
+ 188  PV827139.1_DELIM-0x7c_Australia_DELIM-0x7c_2021-02-15         3.25%    passed     99.92%
+ 189  PZ086231.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-03-18            0.92%    passed     99.67%
+ 190  PZ086302.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-02            1.33%    passed     99.94%
+ 191  PQ616083.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-12            5.53%    passed     99.33%
+ 192  PQ616092.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-03-05            1.91%    passed     99.79%
+ 193  PQ616091.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-03-04            2.96%    passed     99.61%
+ 194  MW202340.1_DELIM-0x7c_USA_DELIM-0x7c_2018-XX-XX               0.78%    passed     99.90%
+ 195  PQ187609.1_DELIM-0x7c_Tanzania_DELIM-0x7c_2017-06-06          0.73%    passed     98.72%
+ 196  PQ187616.1_DELIM-0x7c_Tanzania_DELIM-0x7c_2017-01-09          0.72%    passed     99.50%
+ 197  KY684760.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.72%    passed     99.81%
+ 198  MT118677.1_DELIM-0x7c_USA_DELIM-0x7c_2018-XX-XX               0.75%    passed     99.84%
+ 199  MW532105.1_DELIM-0x7c_China_DELIM-0x7c_2017-09-06             0.76%    passed     99.88%
+ 200  ON554132.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.79%    passed     99.99%
+ 201  PV471826.1_DELIM-0x7c_France_DELIM-0x7c_2021-03-10           15.34%    passed     95.90%
+ 202  ON554133.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.77%    passed     99.97%
+ 203  PQ037244.1_DELIM-0x7c_USA_DELIM-0x7c_2023-04-XX               0.71%    passed     99.93%
+ 204  PQ037245.1_DELIM-0x7c_USA_DELIM-0x7c_2023-04-XX               0.69%    passed     99.88%
+ 205  OR909070.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-XX-XX            1.14%    passed     99.79%
+ 206  OY757580.1_DELIM-0x7c_Australia_DELIM-0x7c_2021-02-14         0.77%    passed    100.00%
+ 207  PQ616104.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-12            4.61%    passed     96.05%
+ 208  PQ616081.1_DELIM-0x7c_Russia_DELIM-0x7c_2020-02-26            2.57%    passed     99.92%
+ 209  PQ616088.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-05            0.96%    passed     99.92%
+ 210  OR266950.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-05            0.96%    passed     99.92%
+ 211  PZ086232.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-02-23            1.69%    passed     99.89%
+ 212  PX055894.1_DELIM-0x7c_Malaysia_DELIM-0x7c_2023-03-XX          0.78%    passed     99.91%
+ 213  PX055895.1_DELIM-0x7c_Malaysia_DELIM-0x7c_2023-03-XX         11.51%    passed     76.85%
+ 214  PZ086237.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-19            8.53%    passed     94.08%
+ 215  PZ086238.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-04-06            2.08%    passed     98.48%
+ 216  LC654445.1_DELIM-0x7c_Japan_DELIM-0x7c_2020-XX-XX             0.77%    passed     99.89%
+ 217  PQ449607.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-03-31    7.50%    passed     99.79%
+ 218  ON554097.1_DELIM-0x7c_China_DELIM-0x7c_2015-XX-XX             0.74%    passed     99.51%
+ 219  ON554119.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.94%    passed     99.06%
+ 220  ON554122.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.83%    passed     99.64%
+ 221  ON554098.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.85%    passed     99.53%
+ 222  ON554101.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.89%    passed     99.68%
+ 223  ON554109.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.72%    passed     98.96%
+ 224  ON554120.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.88%    passed     99.59%
+ 225  ON554110.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.79%    passed     99.70%
+ 226  ON554104.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             2.41%    passed     94.92%
+ 227  ON554116.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.83%    passed     99.76%
+ 228  ON554131.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.89%    passed     99.57%
+ 229  ON554108.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.78%    passed     99.67%
+ 230  ON554118.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.78%    passed     99.69%
+ 231  ON554112.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.89%    passed     99.56%
+ 232  ON554114.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.77%    passed     99.63%
+ 233  ON554111.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.73%    passed     99.79%
+ 234  ON554099.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.88%    passed     99.70%
+ 235  ON554105.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.94%    passed     99.70%
+ 236  OK073084.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.85%    passed     98.68%
+ 237  ON554113.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.77%    passed     99.70%
+ 238  ON554115.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.79%    passed     99.50%
+ 239  ON554117.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.72%    passed     99.65%
+ 240  ON554125.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.81%    passed     99.77%
+ 241  ON554129.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.83%    passed     99.83%
+ 242  ON554128.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.77%    passed     99.90%
+ 243  MW587037.1_DELIM-0x7c_China_DELIM-0x7c_2017-12-XX             0.74%    passed     99.82%
+ 244  MW587038.1_DELIM-0x7c_China_DELIM-0x7c_2017-12-XX             1.39%    passed     99.81%
+ 245  ON554126.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.85%    passed     99.93%
+ 246  ON554127.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.73%    passed     99.86%
+ 247  MW800646.1_DELIM-0x7c_China_DELIM-0x7c_2017-11-28             1.45%    passed     99.68%
+ 248  OK073078.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.91%    passed     99.46%
+ 249  OK073079.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.70%    passed     99.08%
+ 250  OK073082.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.75%    passed     99.13%
+ 251  MW532104.1_DELIM-0x7c_China_DELIM-0x7c_2017-08-02             0.77%    passed     99.84%
+ 252  OK073083.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.70%    passed     99.50%
+ 253  ON729316.1_DELIM-0x7c_USA_DELIM-0x7c_2019-XX-XX               0.87%    passed     99.86%
+ 254  MN306046.1_DELIM-0x7c_USA_DELIM-0x7c_2019-XX-XX               0.70%    passed     99.74%
+ 255  OK073077.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.70%    passed     99.78%
+ 256  ON554135.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.78%    passed     99.61%
+ 257  ON554137.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.77%    passed     99.64%
+ 258  ON554139.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.79%    passed     99.68%
+ 259  ON554136.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.77%    passed     99.94%
+ 260  ON554138.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.73%    passed     99.91%
+ 261  MT797634.1_DELIM-0x7c_Hong_Kong_DELIM-0x7c_2020-01-XX         0.70%    passed     99.44%
+ 262  MW532103.1_DELIM-0x7c_China_DELIM-0x7c_2017-05-02             1.04%    passed     99.74%
+ 263  ON554100.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             1.00%    passed     99.74%
+ 264  KY369912.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.86%    passed     99.21%
+ 265  ON554103.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.70%    passed     99.56%
+ 266  ON554106.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.88%    passed     99.96%
+ 267  ON554102.1_DELIM-0x7c_China_DELIM-0x7c_2016-XX-XX             0.90%    passed     99.51%
+ 268  ON554121.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.71%    passed     99.45%
+ 269  ON554130.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             0.85%    passed     99.90%
+ 270  ON554124.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.79%    passed     99.86%
+ 271  ON554123.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.80%    passed     99.49%
+ 272  MW587035.1_DELIM-0x7c_China_DELIM-0x7c_2017-12-XX             0.99%    passed     99.76%
+ 273  ON554107.1_DELIM-0x7c_China_DELIM-0x7c_2017-XX-XX             0.74%    passed     99.33%
+ 274  MN369046.1_DELIM-0x7c_USA_DELIM-0x7c_2018-XX-XX               1.35%    passed     99.30%
+ 275  KY369914.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.78%    passed     99.58%
+ 276  PQ187610.1_DELIM-0x7c_Singapore_DELIM-0x7c_2010-04-06         0.72%    passed     99.32%
+ 277  PQ187611.1_DELIM-0x7c_Singapore_DELIM-0x7c_2010-05-17         0.69%    passed     99.32%
+ 278  PQ187612.1_DELIM-0x7c_Singapore_DELIM-0x7c_2011-06-15         0.72%    passed     99.18%
+ 279  PQ187613.1_DELIM-0x7c_Singapore_DELIM-0x7c_2011-06-30         0.69%    passed     98.35%
+ 280  PQ187614.1_DELIM-0x7c_Singapore_DELIM-0x7c_2011-11-10         0.69%    passed     98.62%
+ 281  PQ187615.1_DELIM-0x7c_Singapore_DELIM-0x7c_2011-11-10         0.71%    passed     98.88%
+ 282  KU291448.1_DELIM-0x7c_Germany_DELIM-0x7c_2015-XX-XX           1.54%    passed     98.85%
+ 283  MW532106.1_DELIM-0x7c_China_DELIM-0x7c_2009-06-09             1.01%    passed     99.85%
+ 284  JX503060.1_DELIM-0x7c_Netherlands_DELIM-0x7c_2010-XX-XX       0.70%    passed     99.44%
+ 285  AB691767.2_DELIM-0x7c_Japan_DELIM-0x7c_2008-XX-XX             0.80%    passed     99.55%
+ 286  MW532107.1_DELIM-0x7c_China_DELIM-0x7c_2009-04-15             0.75%    passed     99.60%
+ 287  PZ086262.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-01-24            5.18%    passed     99.55%
+ 288  PQ616087.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-01-24            4.45%    passed     99.65%
+ 289  ON554134.1_DELIM-0x7c_China_DELIM-0x7c_2019-XX-XX             0.83%    passed     99.87%
+ 290  PZ086290.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-04-16            2.91%    passed     99.97%
+ 291  PQ466793.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-12-15    6.15%    passed     99.50%
+ 292  PQ466798.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-05    2.58%    passed     99.97%
+ 293  PQ466804.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-24    2.58%    passed     99.98%
+ 294  PQ466810.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-30    2.58%    passed     99.98%
+ 295  PQ466821.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-12    2.59%    passed    100.00%
+ 296  PQ466822.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-11    2.58%    passed    100.00%
+ 297  PQ466819.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-10    2.59%    passed    100.00%
+ 298  PQ466824.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-14    2.58%    passed     99.93%
+ 299  PQ466813.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-31    2.58%    passed     99.98%
+ 300  PQ466814.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-31    2.58%    passed     99.97%
+ 301  PQ466839.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-02-22    2.58%    passed     99.97%
+ 302  PQ466840.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-03-08    2.58%    passed     99.98%
+ 303  PQ466849.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-29    3.57%    passed     99.84%
+ 304  PQ466848.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-27    2.58%    passed    100.00%
+ 305  PQ466845.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-18    2.58%    passed     99.93%
+ 306  PQ466847.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-26    2.58%    passed     99.91%
+ 307  PQ466844.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-14    2.58%    passed    100.00%
+ 308  PQ466846.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-12-18    2.58%    passed     99.99%
+ 309  PQ466851.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2022-03-27    2.73%    passed     99.98%
+ 310  PQ466850.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2022-02-21    9.71%    passed     99.60%
+ 311  PQ466789.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-04-05    2.58%    passed     99.93%
+ 312  PQ466790.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-04-25    2.58%    passed     99.47%
+ 313  PQ466792.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-12-05    2.58%    passed     99.99%
+ 314  PQ466835.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-03-15    9.53%    passed     99.76%
+ 315  PQ466794.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-12-17    2.58%    passed     99.86%
+ 316  PQ466800.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-11    2.58%    passed     99.83%
+ 317  PQ466805.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-25    2.58%    passed     99.89%
+ 318  PQ466827.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-16    2.63%    passed     99.91%
+ 319  PQ466796.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-05    2.58%    passed     99.98%
+ 320  PQ466817.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-07    2.58%    passed     99.96%
+ 321  PQ466802.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-22    2.58%    passed     99.90%
+ 322  PQ466803.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-24    2.58%    passed     99.90%
+ 323  PQ466816.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-05    2.58%    passed     99.90%
+ 324  PQ466830.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-23    2.59%    passed     99.87%
+ 325  PQ466826.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-15    2.58%    passed     99.85%
+ 326  PQ466808.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-29    2.58%    passed     99.93%
+ 327  PQ466797.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-05    2.58%    passed     99.97%
+ 328  PQ466799.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-08    2.58%    passed     99.98%
+ 329  PQ466811.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-30    2.59%    passed     99.94%
+ 330  PQ466829.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-17    2.58%    passed     99.98%
+ 331  PQ466832.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-24    7.43%    passed     99.01%
+ 332  PQ466837.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-04-03    3.92%    passed     99.58%
+ 333  PQ466812.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-30    2.58%    passed     99.92%
+ 334  PQ466833.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-28    2.58%    passed     99.95%
+ 335  PQ466834.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-03-06    2.58%    passed     99.96%
+ 336  PQ466806.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-25    9.33%    passed     86.79%
+ 337  PQ466820.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-10    2.58%    passed     99.95%
+ 338  PQ466836.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-03-17    2.59%    passed     99.80%
+ 339  PQ466838.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-05-13    2.58%    passed     99.92%
+ 340  PQ466818.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-08    2.77%    passed     99.66%
+ 341  PQ466795.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-03    2.58%    passed     99.89%
+ 342  PQ466809.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-30    6.06%    passed     96.33%
+ 343  PQ466815.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-01    2.60%    passed     99.92%
+ 344  PQ466828.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-19    2.60%    passed     99.93%
+ 345  PQ466807.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-29    2.58%    passed     99.92%
+ 346  PQ466843.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-07-19    2.58%    passed     99.90%
+ 347  PQ466841.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-03-24    2.58%    passed     99.93%
+ 348  PQ466823.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-13    2.58%    passed     99.88%
+ 349  PQ466825.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-15    2.59%    passed     99.82%
+ 350  PQ466831.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-24   18.07%    passed     96.94%
+ 351  KY967357.1_DELIM-0x7c_USA_DELIM-0x7c_2015-XX-XX               0.84%    passed     99.60%
+ 352  KY369908.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.92%    passed     99.66%
+ 353  KY983587.1_DELIM-0x7c_USA_DELIM-0x7c_2015-XX-XX               0.76%    passed     99.47%
+ 354  MT438697.1_DELIM-0x7c_USA_DELIM-0x7c_2017-02-24               0.74%    passed     99.29%
+ 355  MT438699.1_DELIM-0x7c_USA_DELIM-0x7c_2017-02-27               1.74%    passed     99.79%
+ 356  MT438698.1_DELIM-0x7c_USA_DELIM-0x7c_2017-02-24               0.96%    passed     99.67%
+ 357  KY621348.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               1.10%    passed     99.05%
+ 358  KY674914.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               1.53%    passed     97.12%
+ 359  KY369909.2_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               3.11%    passed     99.29%
+ 360  KY369913.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.85%    passed     98.88%
+ 361  PQ466791.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2016-10-19    2.58%    passed     99.98%
+ 362  PQ466801.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-13    2.58%    passed     99.94%
+ 363  PZ086219.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-15            1.39%    passed     99.78%
+ 364  PX731574.1_DELIM-0x7c_USA_DELIM-0x7c_2023-XX-XX               0.70%    passed     99.87%
+ 365  PV685437.1_DELIM-0x7c_USA_DELIM-0x7c_2024-06-05               0.73%    passed     99.96%
+ 366  PV685445.1_DELIM-0x7c_USA_DELIM-0x7c_2024-05-21               0.73%    passed     99.93%
+ 367  PV685449.1_DELIM-0x7c_USA_DELIM-0x7c_2024-04-30               0.69%    passed     99.72%
+ 368  PQ037246.1_DELIM-0x7c_USA_DELIM-0x7c_2023-04-XX               0.78%    passed     99.85%
+ 369  PQ037247.1_DELIM-0x7c_USA_DELIM-0x7c_2023-04-XX               0.80%    passed     99.89%
+ 370  PV471871.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-03            9.55%    passed     83.93%
+ 371  MF542265.1_DELIM-0x7c_Haiti_DELIM-0x7c_2016-03-XX             0.69%    passed     99.54%
+ 372  PZ086239.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-10            2.13%    passed     99.53%
+ 373  PV471833.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-12            2.37%    passed     99.73%
+ 374  PV471869.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-01            6.77%    passed     97.33%
+ 375  PV471877.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-11            6.03%    passed     96.93%
+ 376  PV471845.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-11            9.00%    passed     96.22%
+ 377  PV471841.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-30           12.35%    passed     81.81%
+ 378  PP187313.1_DELIM-0x7c_USA_DELIM-0x7c_2021-06-18               0.84%    passed     99.89%
+ 379  PV471814.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-17            9.15%    passed     98.42%
+ 380  PV471888.1_DELIM-0x7c_France_DELIM-0x7c_2021-04-17           16.45%    passed     71.33%
+ 381  PV471863.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-20            9.28%    passed     93.84%
+ 382  PV471894.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-29           14.28%    passed     64.69%
+ 383  PV471834.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-14            9.03%    passed     97.95%
+ 384  PV471886.1_DELIM-0x7c_France_DELIM-0x7c_2022-03-06           11.01%    passed     94.27%
+ 385  PV471916.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-13           14.13%    passed     81.65%
+ 386  PV471928.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-24            8.44%    passed     99.23%
+ 387  PV471903.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-12           17.17%    passed     62.47%
+ 388  ON461752.1_DELIM-0x7c_USA_DELIM-0x7c_2021-05-28               0.92%    passed     99.97%
+ 389  ON461753.1_DELIM-0x7c_USA_DELIM-0x7c_2021-05-31               0.87%    passed     99.93%
+ 390  ON461754.1_DELIM-0x7c_USA_DELIM-0x7c_2021-05-28               0.77%    passed     99.97%
+ 391  PV471816.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-21            7.79%    passed     98.82%
+ 392  PV471830.1_DELIM-0x7c_France_DELIM-0x7c_2021-09-21           13.35%    passed     90.48%
+ 393  PV471893.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-24           13.94%    passed     91.05%
+ 394  PV471827.1_DELIM-0x7c_France_DELIM-0x7c_2021-06-15           10.68%    passed     97.26%
+ 395  PV471899.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-07           11.54%    passed     92.22%
+ 396  PV471844.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-08           10.79%    passed     93.85%
+ 397  PV471853.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-09            2.28%    passed     99.89%
+ 398  OK073080.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             1.14%    passed     98.94%
+ 399  OK073081.1_DELIM-0x7c_China_DELIM-0x7c_2018-XX-XX             1.39%    passed     99.17%
+ 400  MT438696.1_DELIM-0x7c_USA_DELIM-0x7c_2016-02-09               0.78%    passed     99.70%
+ 401  KY369910.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.96%    passed     99.95%
+ 402  KY369911.1_DELIM-0x7c_USA_DELIM-0x7c_2016-XX-XX               0.80%    passed     99.88%
+ 403  MT438700.1_DELIM-0x7c_USA_DELIM-0x7c_2017-01-27               0.75%    passed     98.96%
+ 404  PV471883.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-19            7.09%    passed     99.07%
+ 405  PV471851.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-04           11.36%    passed     94.12%
+ 406  PV471822.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-04            6.45%    passed     98.21%
+ 407  MH828489.1_DELIM-0x7c_Viet_Nam_DELIM-0x7c_2013-10-22          0.76%    passed     98.90%
+ 408  PQ616079.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-10            2.35%    passed     99.89%
+ 409  OR266952.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-10            2.35%    passed     99.89%
+ 410  PQ616080.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-17           15.99%    passed     97.92%
+ 411  ON461751.1_DELIM-0x7c_USA_DELIM-0x7c_2019-11-02               0.87%    passed     99.85%
+ 412  PZ086266.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-04            8.55%    passed     87.85%
+ 413  PQ616089.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-04            7.86%    passed     93.85%
+ 414  KY674919.1_DELIM-0x7c_USA_DELIM-0x7c_2008-XX-XX               1.22%    passed     99.40%
+ 415  KF514429.1_DELIM-0x7c_USA_DELIM-0x7c_1989-02-07               8.01%    passed     59.33%
+ 416  KF514430.1_DELIM-0x7c_USA_DELIM-0x7c_1993-03-18               0.99%    passed     98.09%
+ 417  KF514432.1_DELIM-0x7c_USA_DELIM-0x7c_1993-02-22               1.11%    passed     96.42%
+ 418  KF514433.1_DELIM-0x7c_USA_DELIM-0x7c_1993-03-11               1.01%    passed     96.14%
+ 419  AB691764.2_DELIM-0x7c_Japan_DELIM-0x7c_2004-XX-XX             0.76%    passed     99.29%
+ 420  AB691765.2_DELIM-0x7c_Japan_DELIM-0x7c_2004-XX-XX             0.80%    passed     99.83%
+ 421  AB691766.2_DELIM-0x7c_Japan_DELIM-0x7c_2004-XX-XX             0.80%    passed     99.86%
+ 422  JX503061.1_DELIM-0x7c_Italy_DELIM-0x7c_2009-XX-XX             0.85%    passed     99.29%
+ 423  PZ086226.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-04-29            4.00%    passed     99.38%
+ 424  PZ086264.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-02-09            2.96%    passed     98.92%
+ 425  PQ616078.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-02-09            2.27%    passed     99.77%
+ 426  PQ616111.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-04-07           19.51%    passed     83.24%
+ 427  OR266951.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-02-09            5.06%    passed     99.50%
+ 428  PQ616108.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-24            7.51%    passed     99.51%
+ 429  MW039392.1_DELIM-0x7c_Italy_DELIM-0x7c_2020-03-18             2.36%    passed     98.01%
+ 430  PZ086178.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-04-23            2.60%    passed     99.67%
+ 431  PZ086244.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-07           11.09%    passed     91.20%
+ 432  PZ086268.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-04-12            5.23%    passed     98.37%
+ 433  PZ086180.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-18           11.99%    passed     95.80%
+ 434  PZ086246.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-18           11.85%    passed     96.08%
+ 435  PZ086182.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-02-28            5.82%    passed     95.30%
+ 436  PZ086188.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-XX-XX           16.05%    passed     99.62%
+ 437  PZ086300.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-28            4.02%    passed     99.09%
+ 438  PZ086305.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-07-04           18.59%    passed     90.88%
+ 439  PZ086173.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-14            9.66%    passed     96.58%
+ 440  PZ086218.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-21            4.41%    passed     98.81%
+ 441  PZ086213.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-04-23            5.69%    passed     89.29%
+ 442  PZ086175.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-XX-XX            9.03%    passed     94.95%
+ 443  PZ086254.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-06-06            8.84%    passed     91.99%
+ 444  PQ616072.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-02-12            8.10%    passed     99.54%
+ 445  PQ616073.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-03-23            4.21%    passed     99.77%
+ 446  PQ616075.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-05-04           16.93%    passed     90.31%
+ 447  PQ616076.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-05-22            9.52%    passed     98.18%
+ 448  PZ086217.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-07-04           10.18%    passed     96.72%
+ 449  PZ086293.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-07-19           18.60%    passed     88.53%
+ 450  PQ963850.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-05-22           18.70%    passed     88.15%
+ 451  PQ963851.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-05-23            4.31%    passed     99.00%
+ 452  PX625997.1_DELIM-0x7c_Senegal_DELIM-0x7c_2023-01-26           2.99%    passed     99.84%
+ 453  PV471873.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-13           11.53%    passed     84.41%
+ 454  PX625998.1_DELIM-0x7c_Senegal_DELIM-0x7c_2023-01-13           3.31%    passed     99.88%
+ 455  PQ616095.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-03-18           20.45%    passed     62.36%
+ 456  PV471818.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-14            8.16%    passed     98.98%
+ 457  PV471912.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-01           11.89%    passed     95.94%
+ 458  PV471832.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-04            5.11%    passed     99.77%
+ 459  PV471856.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-14            9.27%    passed     97.12%
+ 460  PV471896.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-01           16.77%    passed     61.08%
+ 461  PV471905.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-16            9.11%    passed     98.93%
+ 462  PV471908.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-07            5.76%    passed     96.68%
+ 463  PV471843.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-30           11.97%    passed     81.20%
+ 464  PV471915.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-12           19.57%    passed     59.96%
+ 465  PV471918.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-17           17.30%    passed     75.31%
+ 466  PV471854.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-10           14.07%    passed     73.47%
+ 467  PV471901.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-09            9.35%    passed     96.00%
+ 468  PV471920.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-18           14.30%    passed     71.33%
+ 469  PV471848.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-27           10.06%    passed     95.98%
+ 470  PV471892.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-19            9.13%    passed     98.04%
+ 471  PV471914.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-10           16.33%    passed     49.02%
+ 472  PV471932.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-23            9.33%    passed     96.85%
+ 473  PV471931.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-16           10.74%    passed     97.18%
+ 474  PV471925.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-12           11.66%    passed     84.66%
+ 475  PV471929.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-03           19.59%    passed     55.94%
+ 476  PV471921.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-19           16.36%    passed     48.06%
+ 477  PV471923.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-02           11.36%    passed     89.33%
+ 478  PV471922.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-19           19.58%    passed     57.65%
+ 479  PV471898.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-06           19.51%    passed     57.33%
+ 480  PV471917.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-14            9.13%    passed     96.91%
+ 481  PV471882.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-23            7.93%    passed     98.05%
+ 482  PV471930.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-12           14.22%    passed     81.02%
+ 483  PV471924.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-11            9.32%    passed     97.62%
+ 484  PV471913.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-05            4.66%    passed     99.90%
+ 485  PV471861.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-20            6.70%    passed     99.29%
+ 486  PV471895.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-30           16.68%    passed     48.55%
+ 487  PV471902.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-10           16.68%    passed     50.12%
+ 488  PV471927.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-23            9.30%    passed     97.78%
+ 489  PV471897.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-03            5.01%    passed     99.52%
+ 490  PV471926.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-16           14.10%    passed     69.47%
+ 491  PV471890.1_DELIM-0x7c_France_DELIM-0x7c_2021-10-17            6.44%    passed     97.65%
+ 492  PV471910.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-27           11.86%    passed     93.93%
+ 493  PV471864.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-20            4.58%    passed     99.54%
+ 494  PV471911.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-10            6.79%    passed     99.37%
+ 495  PV471906.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-22            7.21%    passed     99.04%
+ 496  PV471934.1_DELIM-0x7c_France_DELIM-0x7c_2022-03-08           11.92%    passed     93.94%
+ 497  PV471900.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-09            8.05%    passed     98.88%
+ 498  PV471875.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-06            8.01%    passed     97.90%
+ 499  PV471891.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-02           11.51%    passed     90.45%
+ 500  PV471935.1_DELIM-0x7c_France_DELIM-0x7c_2022-03-07            6.07%    passed     95.54%
+ 501  PV471933.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-08           17.19%    passed     81.57%
+ 502  PV471880.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-13            8.83%    passed     97.57%
+ 503  PV471847.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-26           15.75%    passed     65.45%
+ 504  PV471821.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-04            6.79%    passed     98.13%
+ 505  PV471904.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-09           13.98%    passed     79.52%
+ 506  PV471840.1_DELIM-0x7c_France_DELIM-0x7c_2021-11-24            6.59%    passed     99.66%
+ 507  PV471907.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-28           14.75%    passed     82.20%
+ 508  PV471909.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-11           10.75%    passed     96.48%
+ 509  PV471870.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-01            8.20%    passed     95.09%
+ 510  PV471889.1_DELIM-0x7c_France_DELIM-0x7c_2021-08-19           12.48%    passed     62.95%
+ 511  PZ086174.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-10-16            9.10%    passed     85.49%
+ 512  PZ086285.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-02-12            9.01%    passed     84.65%
+ 513  PQ466842.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2018-06-19    6.12%    passed     99.23%
+ 514  PX640306.1_DELIM-0x7c_USA_DELIM-0x7c_2020-06-02               0.59%    passed     78.71%
+ 515  PQ243243.1_DELIM-0x7c_Hong_Kong_DELIM-0x7c_2020-XX-XX         0.59%    passed     77.89%
+ 516  OK662398.1_DELIM-0x7c_Finland_DELIM-0x7c_2021-XX-XX           0.59%    passed     75.89%
+ 517  OK625404.1_DELIM-0x7c_South_Korea_DELIM-0x7c_2017-XX-XX       0.76%    passed     78.41%
+ 518  PP810610.1_DELIM-0x7c_Spain_DELIM-0x7c_2012-10-05             1.03%    passed     77.01%
+ 519  MZ712010.1_DELIM-0x7c_South_Korea_DELIM-0x7c_2017-06-XX       0.76%    passed     77.86%
+ 520  PP914108.1_DELIM-0x7c_China_DELIM-0x7c_2022-05-15             0.62%    passed     79.01%
+ 521  PX640307.1_DELIM-0x7c_USA_DELIM-0x7c_2020-06-02               0.59%    passed     80.33%
+ 522  PQ616082.1_DELIM-0x7c_USSR_DELIM-0x7c_1979-XX-XX              0.76%    passed     76.65%
+ 523  PZ086177.1_DELIM-0x7c_Russia_DELIM-0x7c_2024-02-13            3.90%    passed     99.31%
+ 524  PQ616084.1_DELIM-0x7c_Russia_DELIM-0x7c_2019-02-27            5.54%    passed     93.84%
+ 525  PQ616085.1_DELIM-0x7c_Russia_DELIM-0x7c_2018-04-23           13.30%    passed     90.65%
+ 526  PZ086222.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-05-14            7.35%    passed     99.53%
+ 527  OZ373357.1_DELIM-0x7c_Switzerland_DELIM-0x7c_2024-04-02      11.71%    passed     88.24%
+ 528  PZ086260.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-06-25            3.95%    passed     98.69%
+ 529  PZ086179.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-05-10           12.76%    passed     83.11%
+ 530  PZ086267.1_DELIM-0x7c_Russia_DELIM-0x7c_2023-05-15            6.61%    passed     94.80%
+ 531  PZ086184.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-19            8.28%    passed     91.49%
+ 532  PZ086272.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-08-09           10.63%    passed     94.11%
+ 533  PZ086306.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-10-29           11.72%    passed    100.00%
+ 534  PZ086275.1_DELIM-0x7c_Russia_DELIM-0x7c_2025-03-19            8.82%    passed     98.15%
+ 535  PV471865.1_DELIM-0x7c_France_DELIM-0x7c_2021-12-26           11.35%    passed     96.70%
+ 536  PV471881.1_DELIM-0x7c_France_DELIM-0x7c_2022-02-19           11.15%    passed     97.35%
+ 537  PV471919.1_DELIM-0x7c_France_DELIM-0x7c_2022-01-17           10.97%    passed     97.78%
+****  TOTAL                                                         4.70%  0 sequences failed composition chi2 test (p-value<5%; df=3)
 NOTE: PV685448.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-29 is identical to PV685447.1_DELIM-0x7c_USA_DELIM-0x7c_2024-02-27 but kept for subsequent analysis
 NOTE: PQ466810.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-30 is identical to PQ466804.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-24 but kept for subsequent analysis
 NOTE: PQ466803.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-24 is identical to PQ466802.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-22 but kept for subsequent analysis
 NOTE: OR266952.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-10 is identical to PQ616079.1_DELIM-0x7c_Russia_DELIM-0x7c_2021-03-10 but kept for subsequent analysis
-Checking for duplicate sequences: done in 0.00472188 secs using 378.3% CPU
-Identifying sites to remove: done in 0.050776 secs using 87.5% CPU
+Checking for duplicate sequences: done in 0.00414991 secs using 347.3% CPU
+Identifying sites to remove: done in 0.0566611 secs using 78.3% CPU
 NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
 NOTE: PQ466816.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-02-05 (identical to PQ466802.1_DELIM-0x7c_United_Kingdom_DELIM-0x7c_2017-01-22) is ignored but added at the end
 Alignment was printed to /Users/dt14/Desktop/HCoV/REFs/229E/augur_results/aligment-delim.fasta.uniqueseq.phy
 
 For your convenience alignment with unique sequences printed to /Users/dt14/Desktop/HCoV/REFs/229E/augur_results/aligment-delim.fasta.uniqueseq.phy
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.173 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.168 seconds
 
-NOTE: 190 MB RAM (0 GB) is required!
+NOTE: 189 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 4 CPU cores
 Increase to 10 rounds for branch lengths
 2 trees examined
-Threads: 1 / Time: 5.117 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -310928
-Threads: 2 / Time: 3.237 sec / Speedup: 1.581 / Efficiency: 79% / LogL: -310928
-Threads: 3 / Time: 2.408 sec / Speedup: 2.125 / Efficiency: 71% / LogL: -310928
-Threads: 4 / Time: 1.990 sec / Speedup: 2.571 / Efficiency: 64% / LogL: -310928
-Determining AUTO threadcount: done in 12.7723 secs using 158.4% CPU
+Threads: 1 / Time: 4.592 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -308616
+Threads: 2 / Time: 3.197 sec / Speedup: 1.436 / Efficiency: 72% / LogL: -308616
+Threads: 3 / Time: 2.256 sec / Speedup: 2.036 / Efficiency: 68% / LogL: -308616
+Threads: 4 / Time: 1.942 sec / Speedup: 2.364 / Efficiency: 59% / LogL: -308616
+Determining AUTO threadcount: done in 12.0072 secs using 161.3% CPU
 BEST NUMBER OF THREADS: 4
 
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -118605.921
-2. Current log-likelihood: -115800.276
-3. Current log-likelihood: -115796.594
-Optimal log-likelihood: -115796.548
-Rate parameters:  A-C: 1.17063  A-G: 1.75654  A-T: 0.54381  C-G: 0.47399  C-T: 4.21580  G-T: 1.00000
-Base frequencies:  A: 0.271  C: 0.165  G: 0.215  T: 0.348
-Parameters optimization took 3 rounds (2.127 sec)
+1. Initial log-likelihood: -118220.123
+2. Current log-likelihood: -115401.030
+3. Current log-likelihood: -115398.346
+Optimal log-likelihood: -115398.287
+Rate parameters:  A-C: 1.17847  A-G: 1.77543  A-T: 0.53748  C-G: 0.47180  C-T: 4.24051  G-T: 1.00000
+Base frequencies:  A: 0.271  C: 0.165  G: 0.215  T: 0.349
+Parameters optimization took 3 rounds (2.088 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.738704 secs using 389% CPU
-Computing ML distances took 0.746209 sec (of wall-clock time) 2.895652 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.00108719 secs using 416.6% CPU
-Constructing RapidNJ tree: done in 0.0355871 secs using 141.2% CPU
-Computing RapidNJ tree took 0.036726 sec (of wall-clock time) 0.054829 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -117599.664
+Calculating distance matrix: done in 0.699088 secs using 395.3% CPU
+Computing ML distances took 0.705871 sec (of wall-clock time) 2.787387 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00110793 secs using 391.1% CPU
+Constructing RapidNJ tree: done in 0.0356731 secs using 142.2% CPU
+Computing RapidNJ tree took 0.036817 sec (of wall-clock time) 0.055074 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -117422.817
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
-Optimizing NNI: done in 1.94893 secs using 231.7% CPU
+Optimizing NNI: done in 2.06287 secs using 230.3% CPU
 Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 1: -115725.563
-Optimizing NNI: done in 2.83123 secs using 230.4% CPU
+BETTER TREE FOUND at iteration 1: -115305.845
+Optimizing NNI: done in 2.60385 secs using 222.3% CPU
 Finish initializing candidate tree set (4)
-Current best tree score: -115725.563 / CPU time: 5.257
+Current best tree score: -115305.845 / CPU time: 5.356
 Number of iterations: 2
-TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:24s
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:21s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -115725.563
-Optimal log-likelihood: -115725.562
-Rate parameters:  A-C: 1.16811  A-G: 1.76246  A-T: 0.54219  C-G: 0.47497  C-T: 4.22371  G-T: 1.00000
-Base frequencies:  A: 0.271  C: 0.165  G: 0.215  T: 0.348
-Parameters optimization took 1 rounds (0.423 sec)
-BEST SCORE FOUND : -115725.562
+1. Initial log-likelihood: -115305.845
+Optimal log-likelihood: -115305.839
+Rate parameters:  A-C: 1.17140  A-G: 1.77342  A-T: 0.53681  C-G: 0.47296  C-T: 4.24422  G-T: 1.00000
+Base frequencies:  A: 0.271  C: 0.165  G: 0.215  T: 0.349
+Parameters optimization took 1 rounds (0.429 sec)
+BEST SCORE FOUND : -115305.839
 Total tree length: 0.330
 
 Total number of iterations: 2
-CPU time used for tree search: 12.382 sec (0h:0m:12s)
-Wall-clock time used for tree search: 5.258 sec (0h:0m:5s)
-Total CPU time used: 52.400 sec (0h:0m:52s)
-Total wall-clock time used: 25.182 sec (0h:0m:25s)
+CPU time used for tree search: 12.059 sec (0h:0m:12s)
+Wall-clock time used for tree search: 5.357 sec (0h:0m:5s)
+Total CPU time used: 44.054 sec (0h:0m:44s)
+Total wall-clock time used: 21.648 sec (0h:0m:21s)
 
 Analysis results written to: 
   IQ-TREE report:                /Users/dt14/Desktop/HCoV/REFs/229E/augur_results/aligment-delim.fasta.iqtree
@@ -635,4 +636,4 @@ Analysis results written to:
   Likelihood distances:          /Users/dt14/Desktop/HCoV/REFs/229E/augur_results/aligment-delim.fasta.mldist
   Screen log file:               /Users/dt14/Desktop/HCoV/REFs/229E/augur_results/aligment-delim.fasta.log
 
-Date and Time: Wed Nov 18 16:18:00 2026
+Date and Time: Thu Nov 19 12:10:09 2026
